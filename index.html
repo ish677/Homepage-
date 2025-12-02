@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress Free 🌿</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating bubbles container -->
+  <div id="bubbles"></div>
+
+  <header>
+    <h1>Stresss Free 🌿</h1>
+    <p>Your personal mini-space to relax and ease your stress</p>
+  </header>
+
+  <!-- Section 1: Songs -->
+  <section id="songs">
+    <h2>🎵 Songs for Stress Relief</h2>
+    <p>Select your stress level (1 = calm, 10 = high stress)</p>
+    <div id="songButtons"></div>
+    <div id="songOutput"></div>
+  </section>
+
+  <!-- Section 2: Mini Games -->
+  <section id="games">
+    <h2>🎮 Mini Games for Distraction</h2>
+    <div class="game-list">
+      <iframe src="https://puzzlegarage.com/?fbclid=IwY2xjawObUqlleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR6Hs-W5QfY-pO-RJf-IvLzldsFu5R2k5O56ZBmOJiD2pqBNpyvcm4cJwpXeHw_aem_JdglDidRNKKaEA4R7c-4pw" allowfullscreen></iframe>
+      <iframe src="http://slither.com/io" allowfullscreen></iframe>
+      <iframe src="https://games.voodoo.io/paperio2" allowfullscreen></iframe>
+      <iframe src="https://smashkarts.io/"" allowfullscreen></iframe>
+      <iframe src="https://scratch.mit.edu/projects/854015400/embed" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Section 3: Anonymous Ranting -->
+  <section id="rant">
+    <h2>📝 Anonymous Rant / Diary</h2>
+    <p>Type your thoughts and click Release — they disappear safely</p>
+    <textarea id="rantText" placeholder="Write what’s bothering you..."></textarea><br>
+    <button onclick="releaseRant()">Release 🌿</button>
+  </section>
+
+  <!-- Section 4: Words to Ease -->
+  <section id="words">
+    <h2>💬 Comforting Words</h2>
+    <p class="words" id="comfortText"></p>
+    <button onclick="nextComfort()">Next Message</button>
+  </section>
+
+  <footer>
+    <p>Made with care for your mental health 💚</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
